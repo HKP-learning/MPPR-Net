@@ -1,0 +1,28 @@
+# MPPR-Net requirements
+# Reference environment used in the experiments:
+# Python 3.x
+# PyTorch 1.12.0
+# CUDA 11.6
+#
+# Note:
+# Install a PyTorch build compatible with your CUDA/driver environment if needed.
+
+torch==1.12.0
+torchvision==0.13.0
+
+numpy<2.0
+opencv-python
+Pillow
+PyYAML
+requests
+scipy
+matplotlib
+tqdm
+pandas
+psutil
+py-cpuinfo
+thop
+einops
+
+# Optional: required only when TASRA is configured with use_entmax=True
+entmax
